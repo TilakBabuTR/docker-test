@@ -2,7 +2,7 @@ FROM centos
 
 
 RUN yum --assumeyes update && \
-yum --asumeyes install \
+yum --assumeyes install \
 nmap iproute && \
 bash && \
 yum clean all
